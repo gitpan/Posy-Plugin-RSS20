@@ -1,0 +1,5 @@
+<rss version="2.0">
+  <channel>
+    <title>$config_site_title</title>
+    <link>$url</link>
+    <description>$config_description</description>

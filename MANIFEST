@@ -1,0 +1,12 @@
+Changes
+doc/flavour/content_type.xml
+doc/flavour/entry.xml
+doc/flavour/foot.xml
+doc/flavour/head.xml
+doc/flavour/header.xml
+lib/Posy/Plugin/RSS20.pm
+Makefile.PL
+MANIFEST
+META.yml			Module meta-data (added by MakeMaker)
+README
+t/Posy-Plugin-RSS20.t

@@ -1,0 +1,39 @@
+Posy::Plugin::RSS20 version 0.1
+===============================
+
+This module delivers Posy entries as a RSS 2.0 feed.
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+DEPENDENCIES
+
+This module requires these other modules and libraries:
+
+  Posy
+  Posy::Core
+  Test::More
+
+ACTIVATION
+
+Add this module to Posy's @plugins array.
+
+Add the "rss20" action to Posy's @entry_actions array before
+"render_entry".
+
+Install the sample flavour files, found in doc/flavour, to your Posy
+flavour directory.
+
+COPYRIGHT AND LICENSE
+
+Copyright (C) 2005 blair christensen.
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
+
