@@ -1,4 +1,4 @@
-Posy::Plugin::RSS20 version 0.1
+Posy::Plugin::RSS20 version 0.2
 ===============================
 
 This module delivers Posy entries as a RSS 2.0 feed.

@@ -1,7 +1,7 @@
 package Posy::Plugin::RSS20;
 
 #
-# $Id: RSS20.pm,v 1.1 2005/03/12 23:32:55 blair Exp $
+# $Id: RSS20.pm,v 1.2 2005/03/13 04:01:35 blair Exp $
 #
 
 use 5.008001;
@@ -14,11 +14,11 @@ Posy::Plugin::RSS20 - Provide RSS 2.0 feeds
 
 =head1 VERSION
 
-This document describes Posy::Plugin::RSS20 version B<0.1>.
+This document describes Posy::Plugin::RSS20 version B<0.2>.
 
 =cut
 
-our $VERSION = '0.1';
+our $VERSION = '0.2';
 
 =head1 SYNOPSIS
 
@@ -48,10 +48,13 @@ If the current flavour is I<xml>, this method will:
 
 =over 4
 
-=item * Set B<$current_entry->{rss20_pubdate}> 
+=item * Set I<$current_entry-Z<>E<gt>{rss20_pubdate}> 
 
-=item * Escape select HTML entities (I<E<lt>, E<gt>, &, and ">) in 
-B<$current_entry-E<gt>{body}>.
+This is available for use in in flavours as I<$entry_rss20_pubdate>.
+
+=item * Escape select HTML entities in I<$current_entry-Z<>E<gt>{body}>.
+
+C<E<lt>>, C<E<gt>>, C<&> and C<"> are escaped.
 
 =back
 
@@ -117,13 +120,13 @@ L<Perl>, L<Posy>, L<http://blogs.law.harvard.edu/tech/rss>
 
 Please report any bugs or feature requests to
 bug-Posy-Plugin-RSS20@rt.cpan.org or through the web interface at
-L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=Posy-Plugin-RSS20>.
+L<http://rt.cpan.org/>.
 
 =head1 AUTHOR
 
 blair christensen., E<lt>blair@devclue.comE<gt>
 
-<http://devclue.com/blog/code/posy/Posy::Plugin::RSS20/>
+L<http://devclue.com/blog/code/posy/Posy::Plugin::RSS20/>
 
 =head1 COPYRIGHT AND LICENSE
 
